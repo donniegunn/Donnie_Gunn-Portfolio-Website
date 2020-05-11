@@ -70,6 +70,7 @@ a:focus{
   margin-left: 15px;
 }
 
+
 .navigation-list__item--active {
   font-weight: bold;
   text-decoration: underline;
@@ -277,22 +278,19 @@ button:focus,
   flex-direction: column;
   margin-left: 20%;
   position: relative;
-  bottom: 200px;
+  bottom: 150px;
 }
 
 #contact-form{
   width: 700px;
-  height: 750px;
   padding-right: 70px;
   display: inline-block;
-  position: relative;
-  top: 230px;
 }
 
 .contact_info--map{
   width: 400px;
   display: inline-block;
-  position: relative;
+   position: relative;
   top: 250px;
 }
 
@@ -302,8 +300,6 @@ button:focus,
 
 #contact-info{
   font-size: 16px;
-  text-decoration-color: #fbf8f8;
-  background-color: #3399cc;
 }
 
 #full_name{
@@ -343,11 +339,6 @@ button:focus,
   background-color: #e5e5e5;
   width: 100%;
   border: none;
-}
-
-iframe{
-  height: 200px;
-  width: 400px;
 }
 
 label{
@@ -545,55 +536,6 @@ table {
   margin-top: 10px;
 }
 
-.contact_profile{
-  flex-direction: column;
-}
-
-#contact-form{
-  width: 100%;
-  position: absolute;
-  top: 200px;
-  right: 15%;
-}
-
-.contact_info--map {
-  max-width: 100%;
-  position: relative;
-  top:650px;
-  right: 15%;
-  }
-
-iframe{
-  width: 85%;
-  height: 200px;
-  }
-
-  #contact-info{
-  font-size: 16px;
-  text-align: center;
-  position: relative;
-  right: 10%;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media all and (max-width: 500px) {
   .grid {
     grid-template-columns: 1fr;
@@ -604,6 +546,7 @@ iframe{
   .grid {
     grid-template-columns: 1fr 1fr;
   }
+
 }
 
 @media all and (max-width: 750px) {
